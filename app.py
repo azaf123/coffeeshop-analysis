@@ -18,7 +18,7 @@ def main():
     return render_template('home.html')
 
 
-@app.route('/', methods=["POST"])
+@app.route('/predict', methods=["POST"])
 def home():
     def cleansing(data):
         # lower text
