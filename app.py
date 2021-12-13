@@ -41,7 +41,7 @@ def home():
     
 
     #data di dapatkan dari web scrapping 
-    df = ps.read_csv("data\data_coffeeshop.csv")
+    df = ps.read_csv("data2\data_coffeeshop.data")
 
     #split dataset
     from sklearn.model_selection import train_test_split
