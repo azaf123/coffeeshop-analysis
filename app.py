@@ -14,12 +14,11 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def man():
+def main():
     return render_template('home.html')
 
 
-@app.route('/predict', methods=['POST'])
-
+@app.route('/', methods=["POST"])
 def home():
     def cleansing(data):
         # lower text
