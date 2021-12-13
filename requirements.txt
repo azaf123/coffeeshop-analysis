@@ -8,7 +8,7 @@ distlib==0.3.4
 filelock==3.4.0
 Flask==2.0.2
 gunicorn==20.1.0
-# heroku==0.1.4
+heroku==0.1.4
 idna==3.3
 isort==5.5.4
 itsdangerous==2.0.1
