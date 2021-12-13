@@ -7,7 +7,7 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from sklearn.feature_extraction.text import TfidfVectorizer
 import string
 import re
-import pandas as ps
+import pandas as pd
 
 app = Flask(__name__)
 
@@ -42,7 +42,7 @@ def home():
     
 
     #data di dapatkan dari web scrapping 
-    df = ps.read_csv("data\data_coffeeshop.csv")
+    df = pd.read_csv("data\data_coffeeshop.csv")
 
     #split dataset
     from sklearn.model_selection import train_test_split
