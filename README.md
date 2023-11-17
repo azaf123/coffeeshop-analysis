@@ -1,4 +1,3 @@
-# coffeeshop-analysis
 
 # Coffeshop Sentiment Analyzer
 
@@ -24,6 +23,15 @@ install the requirements
   pip install requirements.txt
 ```
     
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  flask run
+```
+
+
 ## Screenshots
 
 ![App Screenshot](https://github.com/azaf123/coffeeshop-analysis/blob/main/sentiment.png?raw=true)
